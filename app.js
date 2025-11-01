@@ -95,7 +95,7 @@ const onRemove = (ele) => {
 
             Swal.fire({
                 title: "Deleted!",
-                text: "Data Deleted Successfully.",
+                text: "Data Rmoved Successfully!!!",
                 timer: 3000,
                 icon: "success"
             });
@@ -138,7 +138,7 @@ const onSubmit = eve => {
     studentContainer.appendChild(tr);
 
     Swal.fire({
-        title: " DATA ADDED SUCCESSFULY!!!",
+        title: " "Data Added Successfully!!!",
         timer: 3000,
         icon: "success"
     })
@@ -187,4 +187,5 @@ const onUpdate = () => {
 
 
 stdForm.addEventListener("submit", onSubmit);
+
 updateDataBtn.addEventListener("click", onUpdate); 
